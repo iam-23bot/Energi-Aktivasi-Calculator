@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Activation Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Energy Activation Calculator</h1>
+        <form id="activationForm">
+            <div class="input-group">
+                <label for="T1">Temperature 1 (°C):</label>
+                <input type="number" id="T1" name="T1" required>
+            </div>
+            <div class="input-group">
+                <label for="k1">Rate Constant 1 (k1):</label>
+                <input type="number" step="any" id="k1" name="k1" required>
+            </div>
+            <div class="input-group">
+                <label for="T2">Temperature 2 (°C):</label>
+                <input type="number" id="T2" name="T2" required>
+            </div>
+            <div class="input-group">
+                <label for="k2">Rate Constant 2 (k2):</label>
+                <input type="number" step="any" id="k2" name="k2" required>
+            </div>
+            <button type="submit">Calculate Energy Activation</button>
+        </form>
+        <div id="result"></div>
+        <footer>
+            <p>LinkedIn: Muhammad Alfi Syahri</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
